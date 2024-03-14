@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -8,6 +8,30 @@
 </head>
 
 <body>
-  <script src="index.js" type="module"></script>
+  <header>
+    <h1>Analizador de texto</h1>
+  </header>
+  <main>
+
+    <p>Escribe cualquier palabra o número que desees</p>
+    <ul>
+      <li class="list" data-testid="character-count">Recuento de caracteres:</li>
+      <li class="list" data-testid="character-no-spaces-count">Recuento de caracteres excluyendo espacios y signos de
+        puntuación:</li>
+      <li class="list" data-testid="word-count">Recuento de palabras:</li>
+      <li class="list" data-testid="number-count">Recuento de números:</li>
+      <li class="list" data-testid="number-sum">Suma total de números:</li>
+      <li class="list" data-testid="word-length-average">Longitud media de palabras:</li>
+    </ul>
+    <textarea name="user-input" rows="5" cols="33" placeholder="Ingrese texto..."></textarea>
+
+    <button id="reset-button">Limpiar</button>
+
+  </main>
+  <footer>
+    <p>Autora: Diana Morales</p>
+  </footer>
+  <script type="module" src="index.js"></script>
 </body>
+
 </html>

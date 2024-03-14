@@ -1,0 +1,81 @@
+body {
+    background-image: url("x.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header {
+    color: white;
+    font-size: 2rem;
+
+}
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+textarea[name="user-input"] {
+    background-color: rgb(255, 176, 110);
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.2rem;
+
+
+}
+
+.list {
+    color: white;
+    font-family: cursive;
+    list-style: none;
+    background-color: sienna;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 600px;
+    height: 20px;
+    border: 1px solid #000;
+
+}
+
+
+
+#reset-button {
+    background-color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 70px;
+    height: 35px;
+    font-family: cursive;
+}
+
+#reset-button:hover {
+    background-color: rgb(255, 176, 110); 
+}
+
+footer {
+    color: white;
+}
+
+
+p {
+    color: sienna;
+   
+    font-size: 1.5em;
+   
+
+}
