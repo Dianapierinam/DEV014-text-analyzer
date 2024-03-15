@@ -29,6 +29,7 @@ const analyzer = {
     for (let i = 0; i < text.length; i++) {
       const caracter = text[i];
       //  si no es un espacio o signos almacenados en la cosnt signos, contar++.
+      // si el signo no está incluido en caracter seguir contando.
       if (caracter !== ' ' && !signos.includes(caracter)) {
         contar++;
       
@@ -112,7 +113,7 @@ const analyzer = {
       }
     }
   
-    return sumaNumeros.toFixed(2);
+    return parseFloat(sumaNumeros.toFixed(2));
   },
   
 
